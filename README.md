@@ -99,17 +99,6 @@ npm run preview
 
 ---
 
-## 🌐 Despliegue en Vercel
-
-1. Ingresa a [Vercel](https://vercel.com).
-2. Haz clic en **"Add New Project"** y selecciona el repositorio `calavanda/PWA`.
-3. Vercel detectará automáticamente el framework **Vite**:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-4. Haz clic en **"Deploy"**. Vercel aprovisionará el certificado SSL/HTTPS automático y la PWA estará 100% instalable.
-
----
-
 ## 📱 Verificación de PWA en Google Chrome DevTools
 
 1. Abre las herramientas de desarrollo (`F12` o `Ctrl + Shift + I`).
