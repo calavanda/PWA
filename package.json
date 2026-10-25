@@ -1,0 +1,21 @@
+{
+  "name": "geofield-pwa",
+  "version": "1.0.0",
+  "description": "Progressive Web App (PWA) de producción para auditoría de campo, georreferenciación GPS, cámara nativa y persistencia offline con IndexedDB.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "icons": "node scripts/generate-icons.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "leaflet": "^1.9.4"
+  }
+}
